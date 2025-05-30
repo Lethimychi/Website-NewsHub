@@ -1,0 +1,26 @@
+#root {
+  width: 100%;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f2f2f;
+  border-bottom: 3px solid red;
+}
+
+.list-menu {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.search {
+  color: white;
+  cursor: pointer;
+}

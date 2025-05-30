@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  margin: 0 35px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.logo,
+.banner {
+  display: block;
+  width: 20%;
+  height: auto;
+  object-fit: cover;
+  height: 100%;
+  margin-right: 20px;
+}
+.banner {
+  display: block;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  height: 100%;
+  margin-left: 20px;
+}
