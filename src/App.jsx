@@ -2,6 +2,7 @@ import "./App.css";
 import { menuitem } from "./data";
 import Header from "./Header/Header";
 import Menu from "./body/Menu";
+import FirstContent from "./body/FirstContent";
 import { FaSearch } from "react-icons/fa";
 import {
   FaHome,
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
       <Header />
+
       <div className="menu">
         <div className="menu-title">
           <ul className="list-menu">
@@ -29,6 +31,8 @@ function App() {
           <FaSearch />
         </div>
       </div>
+
+      <FirstContent />
     </>
   );
 }

@@ -5,3 +5,52 @@
   background-color: black;
   border-radius: 5px;
 }
+.main-content {
+  margin: 25px 40px;
+}
+.first-content {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-trending {
+  padding: 5px 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.btn {
+  padding: 8px;
+  border: 1px solid rgb(203, 203, 203);
+  background-color: #ffffff;
+  color: rgb(207, 207, 207);
+  text-align: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.marquee-wrapper {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.marquee-one {
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 50%; /* Đẩy nội dung bắt đầu từ giữa */
+  animation: marquee-one 15s linear infinite;
+}
+
+@keyframes marquee-one {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
